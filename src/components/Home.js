@@ -1,7 +1,12 @@
 import React from 'react';
+import HomeHeader from './HomeHeader'
 
-const Home = () => (
-    <h1>Home</h1>
-)
+const Home = () => {
+    return (
+        <HomeHeader/>
+    );
+  }
+  
+  export default Home;
 
-export default Home;
+  
