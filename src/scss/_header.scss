@@ -1,0 +1,119 @@
+.page__header {
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.page__header__picture img {
+    margin-left: -250px;
+}
+
+.page__header__container {
+}
+
+
+.page__header__login{
+    margin-right: 120px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: flex-end;
+}
+.page__header__login li{
+
+}
+.page__header__login a{
+    text-decoration: none;
+    font-weight: Regular;
+    font-size: 14px/85px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #737373;
+    padding: 15px;
+    opacity: 1;
+}
+
+
+.page__header__login a:hover{
+    border: 0.75px solid #FAD648;
+    opacity: 1;
+    width: 90px;
+    height: 30px;
+}
+
+
+.page__header__menu{
+    margin-right: 120px;
+}
+.page__menu__list {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 44px;
+
+}
+.page__menu__list li{
+}
+.page__menu__list a {
+    text-decoration: none;
+    font-weight: Regular;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #3C3C3C;
+    opacity: 1;
+    padding: 23px;
+}
+
+.page__menu__list a:hover {
+    border: 0.75px solid #3C3C3C;
+    opacity: 1;
+    height: 5px;
+}
+
+
+.page__header__info{
+    margin-top: 219px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 275px;
+}
+
+.page__header__info__container {
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    text-align: center;
+    font-weight: 400; 
+    font-size: 36px; 
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -0.76px;
+    color: #3C3C3C;
+    opacity: 1;
+}
+.page__header__buttons{
+    margin-top: 123px;
+}
+
+.page__header__buttons button{
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    background: #00000000 0% 0% no-repeat padding-box;
+    border: 0.75px solid #3C3C3C;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 120px;
+    width: 310px;
+    font-weight: 300; 
+    font-size: 38px; 
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #3C3C3C;
+
+}
