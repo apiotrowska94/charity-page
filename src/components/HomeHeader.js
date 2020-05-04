@@ -31,8 +31,8 @@ const HomeHeader = () => {
                 <img src={decorationURL} />
                 </div>
                 <section className="page__header__buttons">
-                    <button href="#">Oddaj rzeczy</button>
-                    <button href="#">Zorganizuj zbiórkę</button>
+                    <button><Link to="/give-away">Oddaj<br/>rzeczy</Link></button>
+                    <button><Link to="/organize">Zorganizuj zbiórkę</Link></button>
                 </section>
             </section>
             </div>
