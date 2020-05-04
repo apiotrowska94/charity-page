@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import decorationURL from '../assets/Decoration.svg'
 import bannerURL from '../assets/Hero Image.png'
+import {Link as ScrollLink} from 'react-scroll'
 
 const HomeHeader = () => {
     return (
@@ -17,7 +18,7 @@ const HomeHeader = () => {
             <nav className="page__header__menu">
                 <ul className="page__menu__list">
                     <li><Link to="/">Start</Link></li>
-                    <li><Link to="/info">O co chodzi?</Link></li>
+                    <li><ScrollLink duration={1000} smooth={true} to="info">O co chodzi?</ScrollLink></li>
                     <li><Link to="/about">O nas</Link></li>
                     <li><Link to="/charity">Fundacja i organizacje</Link></li>
                     <li><Link to="/contact">Kontakt</Link></li>
@@ -31,7 +32,7 @@ const HomeHeader = () => {
                 <img src={decorationURL} />
                 </div>
                 <section className="page__header__buttons">
-                    <button><Link to="/give-away">Oddaj<br/>rzeczy</Link></button>
+                    <button><Link to="/login">Oddaj<br/>rzeczy</Link></button>
                     <button><Link to="/organize">Zorganizuj zbiórkę</Link></button>
                 </section>
             </section>

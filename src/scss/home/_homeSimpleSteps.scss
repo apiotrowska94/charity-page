@@ -1,0 +1,101 @@
+.page__simple__steps {}
+
+.page__simple__steps__title__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.page__simple__steps__title__container h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 38px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -0.76px;
+    color: #3C3C3C;
+    opacity: 1;
+}
+.page__simple__steps__title__container img{
+    margin-top: 25px;
+}
+
+.page__simple__steps__info__icons__container {
+    margin-top: 40.9px;
+    background: #F0F1F1 0% 0% no-repeat;
+    opacity: 1;
+    height: 325px;
+
+}
+
+.page__simple__steps__info__icons__container__detailed {
+    margin-top: 40.9px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 414px;
+    margin-right: 414px;
+    height: 325px;
+
+}
+.page__simple__steps__info__icons__article {
+    max-width: 154px;
+}
+.page__simple__steps__info__icons__article img{
+    text-align: center;
+}
+.page__simple__steps__info__icons__article h3{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #3C3C3C;
+    opacity: 1;
+}
+.page__simple__steps__info__icons__article hr{
+    border: 0.5px solid #707070;
+    width: 70px;
+    height: 0px;
+    margin-top: 17px;
+}
+
+.page__simple__steps__info__icons__article h6{
+    margin-top: 21px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #3C3C3C;
+    opacity: 1;
+}
+
+.page__simple__steps__button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.page__simple__steps button{
+    margin-top: 65px;
+    display: inline-block;
+    cursor: pointer;
+    background: #00000000 0% 0% no-repeat padding-box;
+    border: 0.75px solid #3C3C3C;
+    opacity: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 120px;
+    width: 310px;
+    font-weight: 300; 
+    font-size: 38px; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.page__simple__steps button a{
+    text-decoration: none;
+    color: #3C3C3C;
+
+}
