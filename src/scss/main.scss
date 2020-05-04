@@ -1,7 +1,9 @@
 @import './settings/colors';
 @import './settings/fonts';
-@import './homeHeader';
-@import './homeThreeColumns';
+@import './home/homeHeader';
+@import './home//homeThreeColumns';
+@import './home/homeSimpleSteps';
+@import './home/homeAboutUs';
 
 * {
     box-sizing: border-box;
