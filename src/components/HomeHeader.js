@@ -18,8 +18,8 @@ const HomeHeader = () => {
             <nav className="page__header__menu">
                 <ul className="page__menu__list">
                     <li><Link to="/">Start</Link></li>
-                    <li><ScrollLink duration={1000} smooth={true} to="info">O co chodzi?</ScrollLink></li>
-                    <li><Link to="/about">O nas</Link></li>
+                    <li><ScrollLink duration={1000} smooth={true} to="page__simple__steps">O co chodzi?</ScrollLink></li>
+                    <li><ScrollLink duration={1000} smooth={true} to="page__about__us">O nas</ScrollLink></li>
                     <li><Link to="/charity">Fundacja i organizacje</Link></li>
                     <li><Link to="/contact">Kontakt</Link></li>
                 </ul>
@@ -28,7 +28,7 @@ const HomeHeader = () => {
                 <div className="page__header__info__container">
                 <h1>Zacznij pomagać!</h1>
                 <br/>
-                <h1>Oddaj niechciane rzeczy w zufane ręce</h1>
+                <h1>Oddaj niechciane rzeczy w zaufane ręce</h1>
                 <img src={decorationURL} />
                 </div>
                 <section className="page__header__buttons">
