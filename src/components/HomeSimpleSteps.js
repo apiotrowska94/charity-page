@@ -8,7 +8,7 @@ import arrowsURL from '../assets/arrows.png';
 
 const HomeSimpleSteps = () => {
     return (
-        <section id="info" className="page__simple__steps">
+        <section id="page__simple__steps" className="page__simple__steps">
             <div className="page__simple__steps__title__container">
                 <h1>Wystarczą 4 proste kroki</h1>
                 <img src={decorationURL} />

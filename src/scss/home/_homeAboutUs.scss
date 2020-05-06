@@ -1,0 +1,58 @@
+
+#page__about__us {
+    display: flex;
+    background: #F0F1F1 0% 0% no-repeat padding-box;
+    height: 935px;
+}
+
+.page__about__us__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 186px;
+    opacity: 1;
+    width: 50%;
+}
+.page__about__us__container h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 38px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -0.76px;
+    color: #3C3C3C;
+    opacity: 1;
+}
+
+#page__about__us > div > img:nth-child(2){
+    margin-top: 39.96px;
+    width: 253px;
+    height: 33px;
+
+}
+
+#page__about__us > div > img.signature {
+    margin-top: 40.09px;
+    width: 209px;
+    height: 149px;
+    margin-left: 50%;
+}
+.page__about__us__container p{
+    margin-top: 69.29px;
+    max-width: 656px;
+    line-height: 3rem;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -0.6px;
+    color: #3C3C3C;
+    opacity: 1;
+}
+
+
+.page__about__us img{
+    object-fit: cover;
+    width: 50%;
+    background-size: 50% auto;
+}
