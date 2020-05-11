@@ -1,0 +1,67 @@
+{ 
+    "fundations":[ 
+       { 
+          "name":"Fundacjom",
+          "desc":"jakis opis",
+          "items":[ 
+             { 
+                "header":"to jest header",
+                "subheader":"to jest subheader",
+                "desc":"to jest desc"
+             },
+             { 
+                "header":"to jest header",
+                "subheader":"to jest subheader",
+                "desc":"to jest desc"
+             },
+             { 
+                "header":"to jest header",
+                "subheader":"to jest subheader",
+                "desc":"to jest desc"
+             }
+          ]
+       },
+       { 
+          "name":"Organizacjom pozarządowym",
+          "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+          "items":[ 
+             { 
+                "header":"Organizacja Lorem Ipsum 1",
+                "subheader":"to jest subheader",
+                "desc":"to jest desc"
+             },
+             { 
+                "header":"Organizacja Lorem Ipsum 2",
+                "subheader":"to jest subheader",
+                "desc":"to jest desc"
+             },
+             { 
+                "header":"Organizacja Lorem Ipsum 3",
+                "subheader":"to jest subheader",
+                "desc":"to jest desc"
+             }
+          ]
+       },
+       { 
+        "name":"Lokalnym zbiórkom",
+        "desc":"jakis opis",
+        "items":[ 
+           { 
+              "header":"to jest header",
+              "subheader":"to jest subheader",
+              "desc":"to jest desc"
+           },
+           { 
+              "header":"to jest header",
+              "subheader":"to jest subheader",
+              "desc":"to jest desc"
+           },
+           { 
+              "header":"to jest header",
+              "subheader":"to jest subheader",
+              "desc":"to jest desc"
+           }
+        ]
+     }
+    ]
+ }

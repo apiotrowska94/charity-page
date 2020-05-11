@@ -21,7 +21,7 @@ const HomeHeader = () => {
                     <li><ScrollLink duration={1000} smooth={true} to="page__simple__steps">O co chodzi?</ScrollLink></li>
                     <li><ScrollLink duration={1000} smooth={true} to="page__about__us">O nas</ScrollLink></li>
                     <li><Link to="/charity">Fundacja i organizacje</Link></li>
-                    <li><Link to="/contact">Kontakt</Link></li>
+                    <li><ScrollLink duration={1000} smooth={true} to="page__contact">Kontakt</ScrollLink></li>
                 </ul>
             </nav>
             <section className="page__header__info">

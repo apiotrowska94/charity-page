@@ -1,0 +1,215 @@
+.page__contact {
+    background-image: url('../../assets/Blankets.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.page__contact:before {
+    content: "";
+    position: absolute;
+    background: rgba(253, 253, 253, 0.726);
+    height: 100vh;
+    width: 100%;
+}
+
+.page__contact__container {
+    margin-left: 50%;
+    position: absolute;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.page__contact__container__title{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.page__contact__container__title h1{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -0.76px;
+    color: #3C3C3C;
+  
+}
+
+.page__contact__container__title img{
+margin-top: 25px;
+  
+}
+
+
+.page__contact__container__form {
+    max-width: 528px;
+}
+
+.page__contact__container__form p:first-child {
+    color: green;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.page__contact__container__form form p {
+    margin-top: 10px;
+    color: red;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.page__contact__container__form__name__email {
+    margin-top: 45.9px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.page__contact__container__form__name__email label {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #3C3C3C;
+    opacity: 1;
+}
+
+.page__contact__container__form label {
+    margin-left: 16px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #3C3C3C;
+    opacity: 1;
+}
+
+
+.page__contact__container__form__name__email input{
+    display: block;
+    width: 100%;
+    background: none;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #707070;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+
+.page__contact__container__form__textarea label{
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #3C3C3C;
+    opacity: 1;
+}
+
+.page__contact__container__form__textarea textarea{
+    margin-top: 10px;
+    display: block;
+    background: none;
+    outline: 0;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #707070;
+    height: auto;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    text-align: left;
+    opacity: 1;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #3C3C3C26;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #3C3C3C26;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #3C3C3C26;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+:focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(0,0,0,0);
+}
+:focus:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(0,0,0,0);
+}
+:focus::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(0,0,0,0);
+}
+
+.page__contact__container__title button {
+    border: 0.75px solid #3C3C3C;
+    opacity: 1;
+    width: 150px;
+    height: 50px;
+    list-style: none;
+    display: block;
+    margin-left: 72%;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    list-style: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+.page__contact__footer__social {
+    margin-top: 220px;
+    margin-left: 76%;
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+}
+
+.page__contact__footer__social a{
+    cursor: pointer;
+}
+
